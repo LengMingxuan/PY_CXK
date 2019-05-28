@@ -84,7 +84,7 @@ def updateObstacleGroup(map0, map1):
     return obstacles
 
 # initialize everything
-pygame.init()  # 初始化
+pygame.init()  # 初始化# 
 screen = pygame.display.set_mode([640,640]) # 设置窗口大小
 clock = pygame.time.Clock() # 获得pygame的时钟并赋值给clock变量
 skier = SkierClass()
